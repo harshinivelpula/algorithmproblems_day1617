@@ -4,9 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("welcome to primenumber problem");
+            //Console.WriteLine("welcome to primenumber problem");
 
-            primenumber.prime();
+            //primenumber.prime();
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.Display();
         }
     }
 }
