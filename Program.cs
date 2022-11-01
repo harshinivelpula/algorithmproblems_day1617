@@ -15,6 +15,12 @@
 
             Anagram anagram = new Anagram();
             Anagram.Display();
+
+            BinarySearch binarySearch = new BinarySearch();
+            Console.WriteLine("Enter string value to search:");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("User input is " + userInput);
+            binarySearch.BinarySearchIterative(userInput);
         }
     }
 }
