@@ -12,6 +12,9 @@
 
             InsertionSort insertionSort = new InsertionSort();
             InsertionSort.Display();
+
+            Anagram anagram = new Anagram();
+            Anagram.Display();
         }
     }
 }
