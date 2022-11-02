@@ -27,6 +27,10 @@
             char answer = Convert.ToChar(Console.ReadLine());
 
 
+            MergeSort mergeSort = new MergeSort();
+            MergeSort.Display();
+
+
         }
     }
 }
