@@ -21,6 +21,12 @@
             string userInput = Console.ReadLine();
             Console.WriteLine("User input is " + userInput);
             binarySearch.BinarySearchIterative(userInput);
+
+            FindNumber findNumber = new FindNumber();
+            FindNumber.Display();
+            char answer = Convert.ToChar(Console.ReadLine());
+
+
         }
     }
 }
