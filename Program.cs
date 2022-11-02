@@ -31,6 +31,15 @@
             MergeSort.Display();
 
 
+            findPermutations findpermutations = new findPermutations();
+            String str = "ABC";
+            findpermutations(str);
+            findPermutations.swap();
+
+            searchsort Searchsort = new searchsort();
+            searchsort.Display();
+
+
         }
     }
 }
